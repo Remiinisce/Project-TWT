@@ -8,7 +8,7 @@ agent any
 stages {
 stage('Cloning our Git') {
 steps {
-git 'git clone https://github.com/Remiinisce/Project-TWT.git'
+git 'git clone https://github.com/Remiinisce/Project-TWT.git --set-upstream origin main'
 }
 }
 stage('Building our image') {
